@@ -1,0 +1,68 @@
+/* Write your CSS here */
+body {
+  margin: 0px;
+}
+
+# {
+  box-sizing: border-box;
+}
+
+.bg-container {
+  background-color: #ffd569;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: white;
+  border-radius: 10px;
+  height: 75vh;
+  width: 65vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.head {
+  color: black;
+}
+
+.span {
+  color: #ffd569;
+}
+
+.pri-btn {
+  border: 0px;
+  width: 120px;
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 4px;
+  height: 30px;
+}
+
+.image-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 200px;
+  height: 180px;
+  margin-bottom: 20px;
+}
+
+.fruit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 20px;
+  margin-left: 20px;
+  align-items: center;
+}
